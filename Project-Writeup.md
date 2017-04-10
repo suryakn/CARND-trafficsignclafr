@@ -26,7 +26,8 @@ The goals / steps of this project are the following:
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
 
 ---
-Here is a link to my [project code](https://https://github.com/suryakn/CARND-trafficsignclafr/blob/master/Traffic_Sign_Classifier.ipynb)
+Here is a link to my [project code](https://github.com/suryakn/CARND-trafficsignclafr/blob/master/Traffic_Sign_Classifier.ipynb)
+
 
 ####Data Set Summary & Exploration
 
@@ -55,7 +56,8 @@ I normalized the data which gave me good accuracies upto 98%
 
 As a last step, I normalized the image using range normalization with range in -.5 to .5 as the data is from real life and properties like brightness, colors vary vastly and normalization shrinks the variation into a small range so that the weights/biases can be applicable to all the images.
 
-Here is an image before and after normalization -
+Here is an image before and after normalization
+
 ![alt text][image2]
 ![alt text][image3]
 
