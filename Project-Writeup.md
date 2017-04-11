@@ -16,11 +16,11 @@ The goals / steps of this project are the following:
 [image1]: ./examples/dataset-exploratory-visualzn.jpg "Visualization"
 [image2]: ./examples/30_limit.jpg "Before Normalized"
 [image3]: ./examples/30_limit_after_normalization.jpg "Normalized"
-[image4]: ./examples/no_entry.jpg "Traffic Sign 1"
+[image4]: ./examples/no_entry.png "Traffic Sign 1"
 [image5]: ./examples/priority_road.jpg "Traffic Sign 2"
 [image6]: ./examples/right_ahead.jpg "Traffic Sign 3"
 [image7]: ./examples/road_narr_right.jpg "Traffic Sign 4"
-[image8]: ./examples/stop.png "Traffic Sign 5"
+[image8]: ./examples/stop.jpg "Traffic Sign 5"
 
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
