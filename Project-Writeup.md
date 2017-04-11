@@ -98,18 +98,23 @@ I chose the LeNet architechture because it best suits our needs in converging no
 
 ![alt text][image4] ![alt text][image5] ![alt text][image6] 
 ![alt text][image7] ![alt text][image8]
-
-The first image might be difficult to classify because ...
+For the first (no entry ) image , as there are no other images close to this this has advantages.
+For the second ( priority road) it is will be difficult if the center portion is too dull.
+For third (right ahead only), should not be difficult to classify.
+For forth (road narrow right), the center part is very confusing with the normalization method chosen.
+For fith (Stop), the alphabet nature of the sign might cause difficulties as it might get mixed up with speed limits.
 
 ####2. Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | right ahead 			| right ahead  									| 
-| Road narrows on right | U-turn 										|
+| Road narrows on right | Pedestrians									|
 | Stop 					| Stop											|
 | priority road   		| priority road					 				|
 | no entry  			|  no entry 		 							|
+
+It predicted 4 out of 5 correctly which is 80% as opposed to the test accuracy of 97%.
 
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. 
