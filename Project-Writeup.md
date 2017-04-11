@@ -13,7 +13,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: (./examples/dataset-exploratory-visualzn.jpg =100x20)
+[image1]: ./examples/dataset-exploratory-visualzn.jpg "Visualization"
 [image2]: ./examples/30_limit.jpg "Before Normalized"
 [image3]: ./examples/30_limit_after_normalization.jpg "Normalized"
 [image4]: ./examples/no_entry.png "Traffic Sign 1"
