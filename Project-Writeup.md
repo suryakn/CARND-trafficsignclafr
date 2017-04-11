@@ -100,8 +100,8 @@ I chose the LeNet architechture because it best suits our needs in converging no
 ![alt text][image7] ![alt text][image8]
 For the first (no entry ) image , as there are no other images close to this this has advantages.
 For the second ( priority road) it is will be difficult if the center portion is too dull.
-For third (right ahead only), should not be difficult to classify.
-For forth (road narrow right), the center part is very confusing with the normalization method chosen.
+For third (right ahead only), can get confused with straight or right when it is unclear.
+For forth (road narrow right), the center part is very confusing with the normalization method chosen and it can pick other signs with triangle as the border. 
 For fith (Stop), the alphabet nature of the sign might cause difficulties as it might get mixed up with speed limits.
 
 ####2. Here are the results of the prediction:
