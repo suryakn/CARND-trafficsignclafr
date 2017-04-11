@@ -116,8 +116,16 @@ The model was able to correctly guess 4 of the 5 traffic signs, which gives an a
 
 ####3. All the softmax probabilities are shown in 55th cell of Ipython notebook
 
+| Probability         	|     Prediction	        					| Correct/Wrong | Comment |
+|:---------------------:|:-------------------------------:|:------------------:|:------------------:|  
+| 0.9         			| Priority Road   									| Correct| it is pretty sure here with 0.9 with all other predictions exponentially low|
+| 1.0     				| No Entry 										| Correct| No Entry is seems to be very clear and nothing else is close enough to this|
+| 0.8					| Pedestrians											| Wrong | This comepletely went wrong with 1st and second predictions being wrong but the last - 5th probability of 0.00009, although exp. less being correct |
+| 0.9	      			| Turn right ahead					 				|   Correct| it is pretty sure here with 0.9 with all other predictions exponentially low|
+| 0.9				    | Stop     							|   Correct|it is pretty sure here with 0.9 with all other predictions exponentially low|
 
-### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
-####1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
+
+
+
 
 
